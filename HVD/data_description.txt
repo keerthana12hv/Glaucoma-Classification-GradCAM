@@ -1,0 +1,8 @@
+#########################################################
+# Fundus photographs in this folder are pre-processed version of raw_data
+# Pre-processing step:
+# 1) Scaled to have fixed size of 800 pixels.
+# 2) Cropped  at the region of Optic nerve with size of 240 pixels. 
+
+# These fundus photographs were colleceted from Kim's Eye Hospital 
+########################################################## 
