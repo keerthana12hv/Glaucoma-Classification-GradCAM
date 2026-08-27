@@ -1,0 +1,6 @@
+*.keras
+*.h5
+HVD/
+acrima_clean/
+split_data/
+__pycache__/
