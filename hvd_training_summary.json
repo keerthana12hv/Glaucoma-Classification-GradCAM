@@ -1,0 +1,83 @@
+{
+  "source_dir": "/content/drive/MyDrive/Colab Notebooks/Model2_HVD/HVD",
+  "workspace_dir": "/content/drive/MyDrive/Colab Notebooks/Model2_HVD/hvd_model2_workspace",
+  "class_order": [
+    "advanced_glaucoma",
+    "early_glaucoma",
+    "normal_control"
+  ],
+  "split_counts": {
+    "train": {
+      "advanced_glaucoma": 326,
+      "early_glaucoma": 202,
+      "normal_control": 551
+    },
+    "val": {
+      "advanced_glaucoma": 70,
+      "early_glaucoma": 43,
+      "normal_control": 118
+    },
+    "test": {
+      "advanced_glaucoma": 71,
+      "early_glaucoma": 44,
+      "normal_control": 119
+    }
+  },
+  "class_weights": {
+    "0": 1.1032719836400817,
+    "1": 1.7805280528052805,
+    "2": 0.6527525710828797
+  },
+  "test_loss": 0.7097172141075134,
+  "test_accuracy": 0.692307710647583,
+  "classification_report": {
+    "advanced_glaucoma": {
+      "precision": 0.5959595959595959,
+      "recall": 0.8309859154929577,
+      "f1-score": 0.6941176470588235,
+      "support": 71.0
+    },
+    "early_glaucoma": {
+      "precision": 0.4583333333333333,
+      "recall": 0.5,
+      "f1-score": 0.4782608695652174,
+      "support": 44.0
+    },
+    "normal_control": {
+      "precision": 0.9310344827586207,
+      "recall": 0.680672268907563,
+      "f1-score": 0.7864077669902912,
+      "support": 119.0
+    },
+    "accuracy": 0.6923076923076923,
+    "macro avg": {
+      "precision": 0.6617758040171834,
+      "recall": 0.670552728133507,
+      "f1-score": 0.6529287612047775,
+      "support": 234.0
+    },
+    "weighted avg": {
+      "precision": 0.7404824847353583,
+      "recall": 0.6923076923076923,
+      "f1-score": 0.7004630575807296,
+      "support": 234.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      59,
+      10,
+      2
+    ],
+    [
+      18,
+      22,
+      4
+    ],
+    [
+      22,
+      16,
+      81
+    ]
+  ]
+}
