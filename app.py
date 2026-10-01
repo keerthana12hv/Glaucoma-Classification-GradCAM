@@ -14,7 +14,7 @@ import altair as alt
 
 # ---------------- CONFIGURATION ----------------
 IMG_SIZE = 224
-MODEL_PATH = "/content/drive/MyDrive/Colab Notebooks/only_HVD/model2_hvd_resnet50_finetuned.keras"
+MODEL_PATH = "model2_hvd_resnet50_finetuned.keras"
 
 CLASS_NAMES = ["advanced_glaucoma", "early_glaucoma", "normal_control"]
 
